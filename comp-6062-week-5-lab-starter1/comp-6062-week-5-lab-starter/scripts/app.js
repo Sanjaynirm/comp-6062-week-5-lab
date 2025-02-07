@@ -15,19 +15,19 @@ let b = parseFloat(prompt('Enter Number for b'));
 // Example: let isEqual;
 let isEqual;
 // Use '==' to compare 'a' and 'b' for equality.
-isStrictEqual===a===b;
+isEqual=a==b;
 // Example: let isStrictEqual;
 let isStrictEqual
 // Use '===' to compare 'a' and 'b' for strict equality.
-isEqual==a==b;
+isStrictEqual=a===b;
 // Example: let isNotEqual;
 let isNotEqual;
 // Use '!=' to compare 'a' and 'b' for inequality.
-isNotEqual!=a!=b;
+isNotEqual=a!=b;
 // Example: let isStrictNotEqual;
 let isStrictNotEqual;
 // Use '!==' to compare 'a' and 'b' for strict inequality.
-isStrictNotEqual!==a!==b;
+isStrictNotEqual=a!==b;
 // Step 3: Perform basic mathematical operations.
 // Example: let add;
 let add;
